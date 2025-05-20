@@ -1,6 +1,6 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yash12007 | Sera - Antivirus</title>
@@ -13,8 +13,7 @@
     <meta name="twitter:title" content="Yash12007 | Sera AV">
     <meta name="apple-mobile-web-app-title" content="Yash12007 | Sera AV">
     <meta name="description" content="Sera is the most powerful antivirus software developed by Yash12007. It provides the security shild to remove All viruses, malware, trojan, and other harmful software and applications from your device and also provides the Storage Management and Utilities services.">
-    <meta name="keywords" content="Yash12007, software company, app development, cross-platform solutions, sera, antivirus, sera av, Sera Antivirus, Windows, download, subscription, subscribe, payment, pay">
-    <meta name="google-adsense-account" content="ca-pub-6045335792586801">
+    <meta name="keywords" content="Yash12007, software company, app development, cross-platform solutions, sera, antivirus, sera av, Sera Antivirus, Windows, download, subscription, subscribe, payment, pay, Sera Antivirus, Yash12007, virus protection, malware cleaner, drive backup, C drive clone, system optimizer, PC protection, Windows antivirus">
     <link rel="icon" href="https://www.yash12007.com/512x512.ico" type="image/x-icon" />
     <link rel="icon" type="image/svg+xml" href="/512x512.svg">
     <link rel="apple-touch-icon" href="https://www.yash12007.com/192x192.png">
@@ -29,138 +28,363 @@
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <img src="Sera.png" alt="logo" width="30px" height="30px" style="border-radius: 50%; margin: 5px;">
-        <h3>Sera - Antivirus</h3>
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Yash12007">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": "Sera Antivirus",
+            "alternateName": "Sera AV",
+            "operatingSystem": "Windows",
+            "applicationCategory": "SecurityApplication",
+            "applicationSubCategory": "AntivirusSoftware",
+            "downloadUrl": "https://www.yash12007.com/Sera/#download",
+            "offers": {
+                "@type": "Offer",
+                "price": "2588",
+                "priceCurrency": "INR",
+                "availability": "https://schema.org/InStock",
+                "url": "https://www.yash12007.com/Sera/#subscribe"
+            },
+            "description": "Sera Antivirus by Yash12007 is a powerful antivirus solution that removes viruses, malware, and trojans while offering storage optimization, battery health monitoring, and full drive backup from C: to D: drive.",
+            "image": "https://www.yash12007.com/Sera/Sera.png",
+            "author": {
+                "@type": "Organization",
+                "name": "Yash12007",
+                "url": "https://www.yash12007.com"
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Yash12007",
+                "url": "https://www.yash12007.com"
+            },
+            "screenshot": "https://www.yash12007.com/Sera/window.png",
+            "softwareVersion": "1.0.0",
+            "applicationSuite": "Sera Antivirus",
+            "url": "https://www.yash12007.com/Sera"
+        }
+    </script>
+    <style>
+        html{
+            background: #fff;
+            width: 100%;
+            height: 100%;
+        }body{
+            background: #fff;
+            color: #000;
+        }
+        .hero{
+            width: 100%;
+            height: 100vh;
+            background: #fff;
+            color: #000;
+            border-bottom: 2px solid #000;
+            display: grid;
+            place-items: center;
+            justify-content: space-around;
+        }h1{
+            background-image: linear-gradient(to right, #006aff, #a600ff);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }section{
+            width: 100%;
+            height: 100vh;
+            border-bottom: 2px solid #000;
+            padding: 8px;
+            min-height: fit-content;
+        }::-webkit-scrollbar, ::-webkit-scrollbar-thumb{
+            background: transparent;
+            height: 0px;
+            width: 0px;
+        }.features{
+            display: flex;
+            place-items: bottom;
+            justify-content: space-around;
+            width: fit-content;
+            height: fit-content;
+        }
+        .fbox{
+            display: grid;
+            place-items: center;
+            font-size: 8px;
+            text-align: center;
+            margin: 10px;
+        }.ico{
+            width: 30px;
+            height: 30px;
+            background: #fff;
+            border-radius: 50%;
+            color: #000;
+            border: 1px solid #000;
+            display: grid;
+            place-items: center;
+            justify-content: center;
+        }code{
+            margin: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            height: fit-content;
+            width: fit-content;
+            font-size: 12px;
+        }.dnpr{
+            width: fit-content;
+            padding: 10px;
+            height: 50px;
+            border-radius: 10px;
+            border: 2px solid #000;
+            color: #000;
+            display: flex;
+            place-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            cursor: pointer;
+        }.dnpr p{
+            margin: 10px;
+            padding: 8px;
+        }footer{
+            width: 100%;
+            height: 50vh;
+            background: #111;
+            color: #fff;
+            display: grid;
+            place-items: center;
+            justify-content: space-around;
+        }a{
+            color: #ccc;
+            text-decoration: none;
+        }footer a{
+            font-size: 12px;
+        }.social{
+            display: grid;
+            place-items: center;
+            justify-content: center;
+            color: #fff;
+            background: #fff;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            margin: 5px;
+        }.social:hover{
+            background: #fff;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg border-bottom" style="background: transparent;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://www.yash12007.com/Sera">
+                <img src="https://www.yash12007.com/Sera/Sera.png" width="30" height="30" alt="Sera AV Logo" style="border-radius: 50%;">
+                Sera Antivirus</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="https://www.yash12007.com">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#subscribe">Subscription</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">Download</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </nav>
     <div class="hero">
+        <div style="display: grid; place-items: center; justify-content: space-around;">
+            <div style="display: grid; place-items: center;">
+                <h1>Sera Antivirus</h1>
+                <b>Welcome to the World's Most Secure Antivirus</b>
+            </div>
+        </div>
         <div style="display: grid; place-items: center; justify-content: center;">
-            <h1 style="font-size: 36px;">Sera</h1>
-            <h3>Welcome to the World's Most Secure Antivirus</h3>
-            <p style="font-size: 12px;">Antivirus | Optimizer | Storage Management | Battery Health</p>
-            <div style="display: flex; place-items: center; justify-content: start;">
-                <a href="#download" style="display: flex; place-items: center; justify-content: center; background: #0ff; color: #000;" class="btn-primary">Download Now</a>
-                <a href="#subscribe" style="display: flex; place-items: center; justify-content: center;" class="btn-primary">Subscribe Now</a>
-            </div>
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-primary rounded-5 shadow-sm" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-white); --bs-nav-pills-link-active-color: var(--bs-primary); --bs-nav-pills-link-active-bg: var(--bs-white);">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true" onclick="window.open('#download', '_self')">Download Now</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false" onclick="window.open('#subscribe', '_self')">Renew Subscription</button>
+                </li>
+            </ul>
+            <p style="font-size: 8px; margin: 5px;">Antivirus | Optimizer | Storage Management | Battery Health</p>
         </div>
     </div>
-    <section style="background: #fff; font-size: 14px; border: none;">
-        <p style="color: #000;">&copy; 2024 Yash12007. All Rights Reserved.</p>
-    </section>
-    <section id="getstarted">A bit little about Sera</section>
-    <div class="para">
-        <p>Sera is the most powerful antivirus software developed by Yash12007. It provides the security shild to remove All viruses, malware, trojan, and other harmful software and applications from your device and also provides the Storage Management and Utilities services.</p>
-        <p>Sera is newly developed software in 2025. and has ability to perform the best express scan ever. In which users can scan for harmful files within a few secounds and remove them. Those software and applications get analised by Yash12007 to upgrade to provide new and better security by Sera ever.</p>
-        <p>Sera has prevention function to stop itself by crashing and send crashlytics to Yash12007.</p>
-    </div>
-    <section id="why-sera">Why Choose Sera?</section>
-        <div style="display: flex; place-items: center; justify-content: space-between;">
-            <img src="Sera.png" alt="Logo" width="180vw" style="border: 1px solid #fff; border-radius: 10px; margin: 10px; box-shadow: 2px 2px 5px #fff;">
-            <div class="features">
-                <div class="feature">
-                    <i class="bi bi-shield-lock"></i>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-lock" viewBox="0 0 16 16">
-                        <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
-                        <path d="M9.5 6.5a1.5 1.5 0 0 1-1 1.415l.385 1.99a.5.5 0 0 1-.491.595h-.788a.5.5 0 0 1-.49-.595l.384-1.99a1.5 1.5 0 1 1 2-1.415"/>
-                    </svg>
-                    <h3>Advanced Protection</h3>
-                    <p>Real-time defense against viruses, malware, and trojans with AI-powered scanning.</p>
+    <section id="features">
+        <div style="padding: 8px; display: grid; place-items: center; justify-content: center; text-align: center; width: 80vw; height: 80vh; min-height: fit-content; margin-top: 10vh; margin-left: 10vw; border: 2px solid #000; border-radius: 10px;">
+            <h2>Features</h2>
+            <div style="font-size: 12px; width: 80%;">
+                <p>Sera is the most powerful antivirus software developed by Yash12007. It provides the security shild to remove All viruses, malware, trojan, and other harmful software and applications from your device and also provides the Storage Management and Utilities services. Sera is newly developed software in 2025. and has ability to perform the best express scan ever. In which users can scan for harmful files within a few secounds and remove them. Those software and applications get analised by Yash12007 to upgrade to provide new and better security by Sera ever. Sera has prevention function to stop itself by crashing and send crashlytics to Yash12007. Transfer your entire <code>C: drive</code> — including files, apps, and folders — to <code>D: or any drive</code> of your choice. Sera's intelligent engine ensures that your data structure, permissions, and hidden files remain intact. Perfect for freeing up space or preparing backups.</p>
+            </div>
+            <div class="features">    
+                <div class="fbox">
+                    <i class="bi bi-shield-check"></i>
+                    <div class="ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-check" viewBox="0 0 16 16">
+                            <path d="M5.338 1.59a61 61 0 0 0-2.837.856.48.48 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.7 10.7 0 0 0 2.287 2.233c.346.244.652.42.893.533q.18.085.293.118a1 1 0 0 0 .101.025 1 1 0 0 0 .1-.025q.114-.034.294-.118c.24-.113.547-.29.893-.533a10.7 10.7 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.8 11.8 0 0 1-2.517 2.453 7 7 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7 7 0 0 1-1.048-.625 11.8 11.8 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 63 63 0 0 1 5.072.56"/>
+                            <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0"/>
+                        </svg>
+                    </div>
+                    Real-time Scanning
                 </div>
-                <div class="feature">
-                    <i class="bi bi-lightning-fill"></i>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightning-fill" viewBox="0 0 16 16">
-                        <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641z"/>
-                    </svg>
-                    <h3>Ultra Fast Scan</h3>
-                    <p>Express scans finish in seconds, minimizing interruption to your workflow.</p>
+                <div class="fbox">
+                    <i class="bi bi-rocket-takeoff"></i>
+                    <div class="ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                            <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362s.96-1.932.362-2.531c-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532"/>
+                            <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9 9 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a10 10 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093q.1.026.16.045c.184.06.279.13.351.295l.029.073a3.5 3.5 0 0 1 .157.721c.055.485.051 1.178-.159 2.065m-4.828 7.475.04-.04-.107 1.081a1.54 1.54 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a9 9 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006M5.205 5c-.625.626-.94 1.351-1.004 2.09a9 9 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a3 3 0 0 0-.045-.283 3 3 0 0 0-.3-.041Z"/>
+                            <path d="M7.009 12.139a7.6 7.6 0 0 1-1.804-1.352A7.6 7.6 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+                        </svg>
+                    </div>
+                    Instant Device Optimisation
                 </div>
-                <div class="feature">
-                    <i class="bi bi-bar-chart-line-fill"></i>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bar-chart-line-fill" viewBox="0 0 16 16">
-                        <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1z"/>
-                    </svg>
-                    <h3>Performance Optimizer</h3>
-                    <p>Clean up junk files and manage storage for peak system performance.</p>
+                <div class="fbox">
+                    <i class="bi bi-floppy"></i>
+                    <div class="ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-floppy" viewBox="0 0 16 16">
+                            <path d="M11 2H9v3h2z"/>
+                            <path d="M1.5 0h11.586a1.5 1.5 0 0 1 1.06.44l1.415 1.414A1.5 1.5 0 0 1 16 2.914V14.5a1.5 1.5 0 0 1-1.5 1.5h-13A1.5 1.5 0 0 1 0 14.5v-13A1.5 1.5 0 0 1 1.5 0M1 1.5v13a.5.5 0 0 0 .5.5H2v-4.5A1.5 1.5 0 0 1 3.5 9h9a1.5 1.5 0 0 1 1.5 1.5V15h.5a.5.5 0 0 0 .5-.5V2.914a.5.5 0 0 0-.146-.353l-1.415-1.415A.5.5 0 0 0 13.086 1H13v4.5A1.5 1.5 0 0 1 11.5 7h-7A1.5 1.5 0 0 1 3 5.5V1H1.5a.5.5 0 0 0-.5.5m3 4a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 .5-.5V1H4zM3 15h10v-4.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5z"/>
+                        </svg>
+                    </div>
+                    Storage Management
                 </div>
-                <div class="feature">
+                <div class="fbox">
                     <i class="bi bi-battery-half"></i>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-half" viewBox="0 0 16 16">
-                        <path d="M2 6h5v4H2z"/>
-                        <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+                    <div class="ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-battery-half" viewBox="0 0 16 16">
+                            <path d="M2 6h5v4H2z"/>
+                            <path d="M2 4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm10 1a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1zm4 3a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+                        </svg>
+                    </div>
+                    Battery Health Status
+                </div>
+                <div class="fbox">
+                    <i class="bi bi-hdd"></i>
+                    <div class="ico">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hdd" viewBox="0 0 16 16">
+                            <path d="M4.5 11a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1M3 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"/>
+                            <path d="M16 11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V9.51c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198zM3.655 4.26 1.592 8.043Q1.79 8 2 8h12q.21 0 .408.042L12.345 4.26a.5.5 0 0 0-.439-.26H4.094a.5.5 0 0 0-.44.26zM1 10v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1"/>
+                        </svg>
+                    </div>
+                    Full Drive Relocation
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="subscribe">
+        <div style="padding: 8px; display: grid; place-items: center; justify-content: center; text-align: center; width: 80vw; height: 80vh; min-height: fit-content; margin-top: 10vh; margin-left: 10vw; border: 2px solid #000; border-radius: 10px;">
+            <h3>Subscription</h3>
+            <form><script src="https://cdn.razorpay.com/static/widget/subscription-button.js" data-subscription_button_id="pl_QRbm7bllwPXgP5" data-button_theme="brand-color" async> </script> </form>
+            <div style="display: grid; justify-content: start; text-align: left; width: 80%;">
+                <b style="margin: 5px;">Instructions:</b>
+                <p style="font-size: 12px; margin: 0; padding: 5px;">1. Complete the payment and copy the payment ID</p>
+                <p style="font-size: 12px; margin: 0; padding: 5px;">2. Open Sera Antivirus and Enter your E-mail ID then on the next dialog box, Paste the Payment ID in the Input field.</p>
+                <p style="font-size: 12px; margin: 0; padding: 5px;">3. Sera will automatically Renew your account, Make sure that your device is connect to Internet.</p>
+            </div>
+        </div>
+    </section>
+    <section id="download">
+        <div style="padding: 8px; display: grid; place-items: center; justify-content: center; text-align: center; width: 80vw; height: 80vh; min-height: fit-content; margin-top: 10vh; margin-left: 10vw; border: 2px solid #000; border-radius: 10px;">
+            <h4>Download Now</h4>
+            <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://www.yash12007.com/Sera/splashscreen.png" class="card-img-top" alt="Splash Screen">
+                            <div class="card-body">
+                                <p class="card-text">Sera Antivirus | Splash Screen</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://www.yash12007.com/Sera/window.png" class="card-img-top" alt="Sera AV Window">
+                            <div class="card-body">
+                                <p class="card-text">Sera Antivirus | Window</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div onclick="window.open('https://github.com/Yash12007/Sera/releases/download/v1.0-update/Sera.Antivirus.exe', '_self')" class="dnpr">
+                <b>Click to Download</b>
+                <p>V1.0</p>
+                <div style="color: #000000; -webkit-text-fill-color: #000;">
+                    <i class="bi bi-windows"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
+                        <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
                     </svg>
-                    <h3>Battery Health</h3>
-                    <p>Extend laptop battery life with smart power optimization tools.</p>
-                </div>
-            </div> 
-        </div>
-    <section id="download">Download Now</section>
-    <div class="para-download" onclick="window.open('https://github.com/Yash12007/Sera/releases/download/v1.0-update/Sera.Antivirus.exe', '_blank')">
-        <h3>Click to Download</h3>
-        <p> - V1.0 | 2025-05-20</p>
-        <div style="color: #0ff;">
-            <i class="bi bi-windows"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-windows" viewBox="0 0 16 16">
-                <path d="M6.555 1.375 0 2.237v5.45h6.555zM0 13.795l6.555.933V8.313H0zm7.278-5.4.026 6.378L16 16V8.395zM16 0 7.33 1.244v6.414H16z"/>
-            </svg>
-        </div>
-        <p>For Windows</p>
-    </div>
-    <section id="subscribe">Subscribe / Renew your subscription Now</section>
-    <div style="display: grid; place-items: center; justify-content: center;">
-        <form><script src="https://cdn.razorpay.com/static/widget/subscription-button.js" data-subscription_button_id="pl_QRbm7bllwPXgP5" data-button_theme="brand-color" async> </script> </form>
-        <div style="display: grid; place-items: left; justify-content: start;">
-            <b style="margin: 5px;">Instructions:</b>
-            <p style="font-size: 12px; margin: 0; padding: 5px;">1. Complete the payment and copy the payment ID:</p>
-            <p style="font-size: 12px; margin: 0; padding: 5px;">2. Open Sera Antivirus and Enter your E-mail ID then on the next dialog box, Paste the Payment ID in the Input field.</p>
-            <p style="font-size: 12px; margin: 0; padding: 5px;">3. Sera will automatically Renew your account, Make sure that your device is connect to Internet.</p>
-        </div>
-    </div>
-    <footer>
-            <div>
-                <div style="display: flex; place-items: center; justify-content: space-around;">
-                    <h3>About Us</h3>
-                    <a href="https://www.facebook.com/yash12007" style="color: #00f;">
-                        <i class="bi bi-facebook"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-                        </svg>
-                    </a>
-                    <a href="https://www.instagram.com/yash12007_com" style="color: #c92800;">
-                        <i class="bi bi-instagram"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-                        </svg>
-                    </a>
-                    <a href="https://in.linkedin.com/company/yash12007" style="color: #004cff;">
-                        <i class="bi bi-linkedin"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-                        </svg>
-                    </a>
-                    <a href="https://x.com/_Yash12007_" style="color: #fff;">
-                        <i class="bi bi-twitter-x"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
-                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
-                        </svg>
-                    </a>
-                    <a href="https://www.youtube.com/@Yash12007" style="color: #f00;">
-                        <i class="bi bi-youtube"></i>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
-                            <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
-                        </svg>
-                    </a>
                 </div>
             </div>
-            <p style="font-size: 12px;">Yash12007 - A software development company dedicated to providing high quality software and servies to business and organisations of all sizes. And we provided seemless services to our users.</p>
-            <div style="display: flex; place-items: center;">
+        </div>
+    </section>
+    <footer id="footer">
+        <div style="display: flex; place-items: center; justify-content: space-between;">
+            <h5>Sera Antivirus</h5>
+            <div style="display: flex; place-items: center; margin: 10px;">
+                <a href="https://www.facebook.com/yash12007" class="btn social" style="color: #00f;">
+                    <i class="bi bi-facebook"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/yash12007_com" class="btn social" style="color: #f0a;">
+                    <i class="bi bi-instagram"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                    </svg>
+                </a>
+                <a href="https://in.linkedin.com/company/yash12007" class="btn social" style="color: #0ad;">
+                    <i class="bi bi-linkedin"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>
+                </a>
+                <a href="https://x.com/_Yash12007_" class="btn social" style="color: #000;">
+                    <i class="bi bi-twitter-x"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+                        <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+                    </svg>
+                </a>
+                <a href="https://www.youtube.com/@Yash12007" class="btn social" style="color: #f00;">
+                    <i class="bi bi-youtube"></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <div style="display: flex; place-items: center; justify-content: space-around;">
+            <div style="display: grid; justify-content: start;">
                 <a href="https://www.yash12007.com">Home</a>
-                <a href="https://www.yash12007.com/Max#about">About</a>
-                <a href="https://www.yash12007.com/Max#Services">Services</a>
-                <a href="https://wa.me/917420891287">Contact</a>
+                <a href="https://www.yash12007.com/Max/#about">About</a>
+                <a href="https://www.yash12007.com/#services">Services</a>
+                <a href="https://www.yash12007.com/#software">Softwares</a>
+                <a href="https://www.yash12007.com/Max/contact">Contact</a>
             </div>
+            <p style="text-align: center; width: 80%; font-size: 12px;">A Project by Yash12007 - A software development company dedicated to providing high quality software and servies to business and organisations of all sizes. And we provided seemless services to our users.</p>
+        </div>
+        <p>&copy; 2025 Yash12007. All Rights Reserved.</p>
     </footer>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+  </body>
 </html>
