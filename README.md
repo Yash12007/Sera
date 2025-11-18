@@ -12,6 +12,8 @@ This update delivers a fully upgraded experience with a modern UI, enhanced prot
 A complete visual refresh for a cleaner, faster, and more intuitive interface.  
 Navigation feels smoother, animations are refined, and the overall UX is now more immersive.
 
+[![Watch the video](https://img.youtube.com/vi/mMdXD_32YKE/hqdefault.jpg)](https://youtu.be/mMdXD_32YKE)
+
 ---
 
 ### 💳 **Upgraded Payment & Subscription System**
