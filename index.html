@@ -156,6 +156,33 @@
             <p style="font-size: 8px; margin: 5px;">Antivirus | Optimizer | Storage Management | Battery Health</p>
         </div>
     </div>
+    <section>
+        <div style="padding: 25px; place-items: left; justify-content: start; text-align: left; width: 80vw; height: 80vh; min-height: fit-content; margin-top: 10vh; margin-left: 10vw; border: 2px solid var(--sera-secondary-color); border-radius: 10px;">
+            <b style="font-size: 1.3rem;">🚀 What's New in v2.5</b><br>
+            <i>🎨Immersive New User Experience</i>
+            <p style="font-size: 0.7rem;">A complete visual refresh for a cleaner, faster, and more intuitive interface. Navigation feels smoother, animations are refined, and the overall UX is now more immersive.</p>
+            <iframe width="424" height="238" src="https://www.youtube.com/embed/mMdXD_32YKE" title="🚀 Sera Antivirus 2.5 - The Next-Level Security Upgrade" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br><i>💳Upgraded Payment & Subscription System</i>
+            <p>
+                Payments have been rebuilt from the ground up
+                <li>PayPal-powered subscription flow</li>
+                <li>Real-time subscription verification</li>
+                <li>Instant activation</li>
+                <li>Automatic plan detection</li>
+                <li>Smooth renewal experience</li>
+                No delays. No failed activations. Just clean, stable access.
+            </p>
+            <i>⚡ Real-Time Scan Results</i>
+            <br><p>
+                Stay updated on what Sera is doing at every moment:
+                <li>Live file-by-file scan output</li>
+                <li>Real-time threat alerts</li>
+                <li>Fully optimized scan engine</li>
+                <li>Faster and more responsive detection</li>
+                You'll literally see protection happening in real time.
+            </p>
+        </div>
+    </section>
     <section id="features">
         <div style="padding: 8px; display: grid; place-items: center; justify-content: center; text-align: center; width: 80vw; height: 80vh; min-height: fit-content; margin-top: 10vh; margin-left: 10vw; border: 2px solid var(--sera-secondary-color); border-radius: 10px;">
             <h2>Features</h2>
@@ -278,11 +305,6 @@
             });
         }
     </script>
-    <section id="readme">
-        <div style="padding: 8px; text-align: left; width: 80vw; height: 80vh; min-height: fit-content; margin-top: 10vh; margin-left: 10vw; border: 2px solid var(--sera-secondary-color); border-radius: 10px;">
-            <div id="markdown"></div>
-        </div>
-    </section>
     <footer id="footer">
         <div style="width: calc(100% - 10px); display: flex; place-items: center; justify-content: space-between;">
             <h5>Sera Antivirus</h5>
@@ -402,13 +424,6 @@
             setTimeout(() => URL.revokeObjectURL(link.href), 200);
             document.body.appendChild(subScreen);
         }document.querySelectorAll("#slider img").forEach(img => {img.addEventListener("click", () => {document.getElementById("MainIMG").src = img.src;});});
-        document.addEventListener("DOMContentLoaded", () => {
-            fetch("https://raw.githubusercontent.com/Yash12007/Sera/main/README.md").then(res => res.text())
-            .then(md => {
-                document.getElementById("markdown").innerHTML = marked.parse(md);
-            });
-            renderBadge();
-        });
     </script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"version":"2024.11.0","token":"9566e86f01df45009b8dc922ac29e934","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
