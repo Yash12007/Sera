@@ -213,7 +213,7 @@
         <img loading=lazy src=https://www.yash12007.com/Sera/Assets/mainScreen.png aria-label="Main Screen" alt="Main Screen" title="Main Screen" style=border-radius:10px>
         </div>
         <div style=display:flex;place-items:center;justify-content:space-between;flex-direction:row;flex-wrap:wrap>
-        <div id=paypal-button-container-P-6KH30305YV902451YNDQ645Y style=scale:0.7;margin:auto></div>
+        <div id="paypal-button-container-P-6KH30305YV902451YNDQ645Y" style="transform:scale(0.7); margin:auto;"></div>
         <div style=font-size:.7rem;padding:10px;display:grid;justify-content:start;text-align:left;width:fit-content;margin:auto>
         <b>Instructions:</b>
         <p>
@@ -227,26 +227,23 @@
         </div>
         </div>
         <script src="https://www.paypal.com/sdk/js?client-id=ATF4xSULrRV_ac9MIxY_9ufs9o_WNjsRTfc7X8QiBNnbBu1CSIJ2cBrWobEm-bX-S31E457xk2qZOq7S&vault=true&intent=subscription&currency=USD" data-sdk-integration-source=button-factory></script>
-        <script>paypal.Buttons({
-            style: {
-                shape: "rect",
-                color: "gold",
-                layout: "vertical",
-                label: "subscribe"
-            },
-            createSubscription: function(data, actions) {
+        <script>
+            paypal.Buttons({
+              style: {
+                  shape: 'rect',
+                  color: 'gold',
+                  layout: 'vertical',
+                  label: 'subscribe'
+              },
+              createSubscription: function(data, actions) {
                 return actions.subscription.create({
-                plan_id: "P-6KH30305YV902451YNDQ645Y"
+                  plan_id: 'P-6KH30305YV902451YNDQ645Y'
                 });
-            },
-            onApprove: function(data, actions) {
-                subscribed(data.subscriptionID);
-            },
-            onError: function(err) {
-                console.error("PayPal Error:", err);
-                alert("Something went wrong with the subscription.");
-            }
-            }).render("#paypal-button-container-P-6KH30305YV902451YNDQ645Y");
+              },
+              onApprove: function(data, actions) {
+        	    subscribed(data.subscriptionID);
+              }
+          }).render('#paypal-button-container-P-6KH30305YV902451YNDQ645Y');
         </script>
         </div>
         <div id=download>
@@ -356,4 +353,5 @@
     </script>
 </body>
 </html>
+
 
