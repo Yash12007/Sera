@@ -16,7 +16,7 @@
     <meta name="twitter:title" content="Yash12007 | Sera">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@_Yash12007_">
-    <meta name="twitter:description" content="Sera Antivirus offers real-time protection, fast scans, and optimization tools to keep your PC safe and efficient.">
+    <meta name="twitter:description" content="Sera Antivirus offers real-time protection, fast scans, and optimisation tools to keep your PC safe and efficient.">
     <meta name="twitter:image" content="https://www.yash12007.com/192x192.png">
 
     <meta name="apple-mobile-web-app-title" content="Yash12007 | Sera AV">
@@ -213,7 +213,7 @@
         <img loading=lazy src=https://www.yash12007.com/Sera/Assets/mainScreen.png aria-label="Main Screen" alt="Main Screen" title="Main Screen" style=border-radius:10px>
         </div>
         <div style=display:flex;place-items:center;justify-content:space-between;flex-direction:row;flex-wrap:wrap>
-        <div id="paypal-button-container-P-6KH30305YV902451YNDQ645Y" style="transform:scale(0.7); margin:auto;"></div>
+        <div id="paypal-button-container-P-6KH30305YV902451YNDQ645Y" style="transform: scale(0.7); margin: auto;"></div>
         <div style=font-size:.7rem;padding:10px;display:grid;justify-content:start;text-align:left;width:fit-content;margin:auto>
         <b>Instructions:</b>
         <p>
@@ -226,24 +226,25 @@
         <p></p>
         </div>
         </div>
-        <script src="https://www.paypal.com/sdk/js?client-id=ATF4xSULrRV_ac9MIxY_9ufs9o_WNjsRTfc7X8QiBNnbBu1CSIJ2cBrWobEm-bX-S31E457xk2qZOq7S&vault=true&intent=subscription&currency=USD" data-sdk-integration-source=button-factory></script>
+        <script src="https://www.paypal.com/sdk/js?client-id=ATF4xSULrRV_ac9MIxY_9ufs9o_WNjsRTfc7X8QiBNnbBu1CSIJ2cBrWobEm-bX-S31E457xk2qZOq7S&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
         <script>
             paypal.Buttons({
-              style: {
-                  shape: 'rect',
-                  color: 'gold',
-                  layout: 'vertical',
-                  label: 'subscribe'
-              },
-              createSubscription: function(data, actions) {
-                return actions.subscription.create({
-                  plan_id: 'P-6KH30305YV902451YNDQ645Y'
-                });
-              },
-              onApprove: function(data, actions) {
-        	    subscribed(data.subscriptionID);
-              }
-          }).render('#paypal-button-container-P-6KH30305YV902451YNDQ645Y');
+                style: {
+                    shape: 'rect',
+                    color: 'silver',
+                    layout: 'vertical',
+                    label: 'subscribe'
+                },
+                createSubscription: function(data, actions) {
+                    return actions.subscription.create({
+                    /* Creates the subscription */
+                    plan_id: 'P-6KH30305YV902451YNDQ645Y'
+                    });
+                },
+                onApprove: function(data, actions) {
+                    subscribed(data.subscriptionID);
+                }
+            }).render('#paypal-button-container-P-6KH30305YV902451YNDQ645Y');
         </script>
         </div>
         <div id=download>
@@ -351,8 +352,6 @@
                 <button onclick="this.parentElement.remove()" class="btn" style="background: #fff; color: #000; border: 2px solid #000; border-radius: 5px; padding: 10px; margin-top: 20px;" aria-label="Close">Close</button>
             `;let i=new Blob([e],{type:"text/plain"}),l=document.createElement("a");l.href=URL.createObjectURL(i),l.download="Sera_subscription_ID.txt",l.click(),setTimeout(()=>URL.revokeObjectURL(l.href),200),document.body.appendChild(t)}document.querySelectorAll("#slider img").forEach(e=>{e.addEventListener("click",()=>{document.getElementById("MainIMG").src=e.src})});
     </script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"9566e86f01df45009b8dc922ac29e934","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
 </html>
-
-
-
