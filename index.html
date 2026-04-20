@@ -173,6 +173,17 @@
                 flex-direction: column-reverse !important;
                 gap: 30px;
             }
+        }code{
+            margin: 20px;
+            padding: 10px 20px;
+            background: #222;
+            color: #fff;
+            border-radius: 8px;
+            display: flex;
+            flex-wrap: nowrap;
+            word-break: keep-all;
+            overflow: auto;
+            border: 1px solid #ccc7;
         }
     </style>
 </head>
@@ -372,7 +383,11 @@
     </div>
     <div id=download>
         <section><h4>Downloads</h4></section>
-        <p style=font-size:.7rem;padding:14px;margin:10px;text-align:center>After download, Sera asks for your E-mail address to confirm your account, This will help to verify the subscription. If you didn't subscribed yet, please subscribe at: <a aria-label="Subscribe Form" style=color:#a0f;padding:3px href=https://www.yash12007.com/Sera/#subscribe>Subscription Form</a></p>
+        <p style=font-size:.7rem;padding:14px;margin:10px;text-align:left>After download, Sera asks for your E-mail address to confirm your account, This will help to verify the subscription. If you didn't subscribed yet, please subscribe at: <a aria-label="Subscribe Form" style=color:#a0f;padding:3px href=https://www.yash12007.com/Sera/#subscribe>Subscription Form</a><br><b>Don't want to use installers?</b> No problem, SERA v3.0 can be installed with just one single line of command</p>
+        <div style="margin: 20px auto; width: 80vw; padding: 10px; background: #000; color: #0df; border-radius: 1rem;">
+            <label for="pscode">Powershell</label>
+            <code id="pscode">winget install Yash12007.SeraAntivirus</code>
+        </div>
         <div style="width:100vw;height:fit-content;overflow-y:auto;display: flex; place-items: center; justify-content: center; flex-direction: column;">
             <div onclick='window.open("https://github.com/Yash12007/Sera/releases/download/v3.0/SERA_ANTIVIRUS_3.0.exe","_self")' class=dnpr>
                 <b>SERA 3.0</b>
