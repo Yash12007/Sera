@@ -1,80 +1,86 @@
-# Sera AV | License
-This license contain user acknowledgements, notices, terms of use, privacy policy, and EULA (End User License Agreement).
-Reading this License agreement before using Sera Antivirus is mandatory.
+Sera AV | License Agreement
 
-## Table of Contents:
-- Acknowledgements
-- Notice
-- Terms of use
-- Continued use implies acceptance of these terms.
-- Privacy & Policy
-- End User License Agreement (EULA)
+This document outlines the terms, conditions, privacy practices, and end-user license agreement (EULA) for Sera Antivirus.
+By installing or using this software, you agree to the terms described below.
+
+---
 
 📜 Acknowledgements
-We gratefully acknowledge the development and continuous improvement of Sera Antivirus by Yash12007, a trusted software development company founded by Yash Bodhe. Sera Antivirus is a proprietary security solution designed with precision to safeguard users from malware, spyware, and other cybersecurity threats.
-We extend our thanks to all contributors, testers, and supporters who helped shape the security features and stability of this antivirus solution.
 
-⚠️ Notice:
-Sera Antivirus is the exclusive intellectual property of Yash12007.
-Users are strictly prohibited from reselling, modifying, reverse-engineering, or redistributing this software in any form.
-Any violation of this policy will result in an immediate and permanent ban from all related services and future software releases by Yash12007.
+Sera Antivirus is developed and maintained by Yash12007, founded by Yash Bodhe. It is a proprietary security solution designed to protect systems against malware, spyware, and evolving cybersecurity threats.
+
+We appreciate the contributions of testers and users who support the continuous improvement of this software.
+
+---
+
+⚠️ Ownership & Notice
+
+Sera Antivirus is the intellectual property of Yash12007.
+
+You may not:
+- Resell, distribute, or sublicense the software
+- Reverse engineer, decompile, or modify it
+- Repackage or use it for unauthorized commercial purposes
+
+Unauthorized use may result in termination of your license.
+
+---
 
 📘 Terms of Use
-Welcome to Sera Antivirus, developed and owned by Yash12007. By using this software, you agree to the following terms:
 
-1. License: You are granted a non-transferable, non-exclusive license to use Sera Antivirus solely for personal or organisational use.
+License Grant:
+You are granted a limited, non-exclusive, non-transferable license to install and use Sera Antivirus on your device.
 
-2. Prohibited Actions: No resale, duplication, or redistribution. No reverse engineering or source code extraction. No modification or repackaging
+Usage Restrictions:
+You agree not to misuse, tamper with, or attempt to bypass the software’s functionality or security mechanisms.
 
-3. Security Responsibility: While Sera Antivirus aims to provide excellent protection, Yash12007 is not liable for damages resulting from threats it fails to detect.
+Security Disclaimer:
+While Sera Antivirus is designed to provide strong protection, no security software can guarantee 100% detection. Yash12007 is not liable for damages resulting from undetected threats.
 
-4. User Ban Policy: Any breach of these terms will result in a permanent ban, disabling your access to updates, support, and associated products from Yash12007.
+Termination:
+This license may be terminated if you violate any of these terms.
 
-Termination: Violation of terms will lead to license revocation without refund or warning.
+---
 
-🔒 Continued use implies acceptance of these terms.
-------
+🔒 Privacy Policy
 
-📄 Privacy & Policy
-At Yash12007, your privacy is a priority. This document explains how Sera Antivirus collects, uses, and protects your information.
+We value your privacy.
 
 Data We Collect:
-1. Device information (OS version, system architecture)
-2. Threat logs (for improvement and analytics)
-3. Optional diagnostic reports (if user agrees)
+- Basic device information (OS, architecture)
+- Threat detection logs
+- Optional diagnostic data (with user consent)
 
-What We Don’t Collect:
-1. No personal files or private documents
-2. No keystrokes or browsing history
-3. No third-party data sharing
+We Do NOT Collect:
+- Personal files or documents
+- Keystrokes or browsing history
+- Sensitive personal data
 
-Usage:
-Data is used only to improve product performance, ensure compatibility, and detect new threats. We do not sell or trade user data.
+Data Usage:
+Collected data is used solely for improving detection, compatibility, and performance.
 
-Security:
-All collected data is encrypted and stored securely. Access is strictly limited to authorised Yash12007 personnel.
+Data Security:
+All data is securely stored and access is restricted.
 
-*🛑 Violating usage policies or data tampering will result in permanent suspension.*
+We do not sell or share user data with third parties.
+
+---
 
 📑 End User License Agreement (EULA)
-This EULA is a legal agreement between you (either an individual or a single entity) and Yash12007 for the use of Sera Antivirus.
 
-1. Grant of License:
-You are granted the right to install and use one copy of Sera Antivirus on your device.
+This is a legal agreement between you and Yash12007.
 
-2. Ownership:
-Sera Antivirus is owned and copyrighted by Yash12007. This software is licensed, not sold.
+- The software is licensed, not sold
+- All rights remain with Yash12007
+- You may install and use one copy per device unless stated otherwise
 
-3. Restrictions:
-You may not:
-- Modify or create derivative works of the software
-- Sell, lease, or sublicense it
-- Reverse engineer or decompile any part of it
+Limitation of Liability:
+To the maximum extent permitted by law, Yash12007 shall not be liable for any indirect, incidental, or consequential damages arising from the use of this software.
 
-4. Termination:
-This agreement is effective until terminated. Violation of any term results in automatic and permanent termination of your rights to use the software.
+---
 
-5. Disclaimer:
-This software is provided "as is" without warranty of any kind. Yash12007 disclaims all liability for damages caused by software performance or failure.
+📌 Final Note
 
-- 📌 By using this software, you agree to all terms stated in this agreement.
+By installing or using Sera Antivirus, you acknowledge and accept this agreement.
+
+If you do not agree, do not install or use the software.
