@@ -114,7 +114,7 @@
             padding: 10px;
             display: flex;
             place-items: center;
-            justify-content: start;
+            justify-content: space-between;
             border-bottom: 1px solid #0003;
         }.hero{
             width: 100vw;
@@ -199,7 +199,12 @@
             word-break: keep-all;
             overflow: auto;
             border: 1px solid #ccc7;
-        }.seo-title {font-size: 1rem;}
+        }.seo-title {font-size: 1.2rem; display: flex; place-items: center; justify-content:center; flex-direction: column;}
+        h1 span {
+            display: block;
+            font-weight: normal;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
@@ -208,25 +213,24 @@
             <img src="Sera.png" alt="Sera Antivirus | Logo" width="30px" height="30px" style="border-radius: 50%;">
             <b>Sera AV</b>
         </span>
+        <div itemscope itemprop="offers" itemtype="https://schema.org/Offer" onclick="window.open('?page=subscribe', '_self')" style="cursor: pointer;">
+            <meta itemprop="price" content="30">
+            <meta itemprop="priceCurrency" content="USD">
+            <p style="font-size:0.7rem;">Starts at $2.5 for first month</p>
+        </div>
     </nav>
     <div class="hero">
         <div class="mirror-container">
             <img src="Sera.png" width="120px" height="120px" alt="Sera Antivirus Logo" style="border-radius: 10px;">
         </div>
         <div style="display: flex; place-items: center; justify-content: center; flex-direction: column; gap: 3px;">
-            <h1 class="seo-title" style="margin-bottom: 0px; margin-top: 50px;">Sera Antivirus 3.0 - Antivirus Software for Windows</h1>
-            <p style="margin: 0px;">We protect so you don't have to think</p>
+            <h1 class="seo-title" style="margin-bottom: 0px; margin-top: 50px;">Sera Antivirus 3.0 <span>Antivirus Software for Windows</span></h1>
         </div>
         <div style="display: flex; place-items: center; margin-top: 20px; justify-content: space-between;">
             <a href="#download" style="background: #00c9ff;color: #000;border: 2px solid #00c9ff;">Download</a>
             <a href="#subscribe">Subscribe</a>
         </div>
-        <div itemscope itemprop="offers" itemtype="https://schema.org/Offer" onclick="window.open('?page=subscribe', '_self')" style="cursor: pointer; margin-top:10px; position: absolute; bottom: 20px; border: 1px solid #2227; border-radius: 1rem; padding: 10px 20px; box-shadow: inset 2px 2px 5px #f0f7, inset -2px -2px 5px #01f7; right: 20px;">
-            <meta itemprop="price" content="30">
-            <meta itemprop="priceCurrency" content="USD">
-            <p style="font-size:1.2rem; font-weight:bold;">$30 per year</p>
-            <p style="font-size:0.8rem;">Starts at $2.5 for first month</p>
-        </div>
+        <p style="margin:0px; padding: 0px; position: absolute; bottom: 20px; margin-top: 20px; font-size: 0.7rem;">We protect so you don't have to think</p>
     </div>
     <div id=features>
         <section><h2>Features</h2></section>
